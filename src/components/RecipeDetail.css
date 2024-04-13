@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  position: relative;
+}
+
+.tags {
+  position: absolute;
+  top: 0;
+  left: 70%;
+  align-self: flex-start;
+  margin-left: 30px;
+
+  /* justify-self: flex-start; */
+}
+
+.tags div {
+  display: flex;
+  gap: 10px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.recipe-summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.recipe-summary div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0 30px 0;
+}
+
+.recipe-detail {
+  width: 70%;
+  margin: auto;
+}
+
+.desc1 {
+  background-color: #f2f2f2;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.ingredients-listing {
+  margin-top: 20px;
+}
+
+.list {
+  margin-right: 10px;
+}
+
+.tabs {
+  color: white;
+}
+
+.tabs .active-tab {
+  background-color: #279fca;
+}
+
+.tabs div {
+  padding: 4px 20px;
+  background-color: gray;
+}
+
+.listing-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.listing-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.listing-data-grid {
+  display: flex;
+  column-gap: 10px;
+  row-gap: 40px;
+  margin: 20px 0 20px 0;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.listing-data-list {
+  /* margin-top: 30px; */
+  margin: 30px 0 30px 0;
+}
+
+.listing-data-grid div {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.listing-data-list div {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.grid,
+.list,
+.metric,
+.us {
+  cursor: pointer;
+}
+
+.recipe-item {
+  cursor: pointer;
+}
+
+.recipe-title {
+  margin: 20px 0 20px 0;
+}
+
+.listing-data-grid .ingredient {
+  width: 200px;
+}
+
+.ingredient p {
+  /* width: 100px; */
+  /* height: 200px; */
+}
+
+.loading-container-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
