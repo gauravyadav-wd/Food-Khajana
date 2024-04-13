@@ -1,1 +1,1 @@
-[Download Documentation (PDF)](documentation.pdf)
+[Documentation (PDF)](documentation.pdf)
